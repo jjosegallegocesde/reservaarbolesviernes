@@ -1,0 +1,43 @@
+.banner{
+    background-image: url("../img/antioquia.avif");
+    padding: 25%;
+    position: relative;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+.banner::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.menucolor{
+    background-color:rgb(12, 27, 12);
+}
+
+.banner2{
+    background-image: url("../img/arboles-a-contra-luz-del-sol_1920x1080_xtrafondos.com.jpg");
+    padding: 25%;
+    position: relative;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+.banner2::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
