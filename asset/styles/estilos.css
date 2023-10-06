@@ -39,3 +39,10 @@
     opacity: 0.5;
     z-index: -1;
 }
+.columnadas{
+    height: 100vh;
+}
+
+.columnadas:hover{
+    opacity: 1;
+}
