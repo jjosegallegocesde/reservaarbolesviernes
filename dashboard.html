@@ -16,37 +16,41 @@
     />
     <link rel="stylesheet" href="./assets/styles/estilos.css" />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
-    <main class="container-fluid">
+    <main class="container-fluid bg-secondary">
       <div class="row fst-italic">
         <div class="col-12 col-md-4 bg-dark text-white columnaDashboard">
           <div class="row">
-            <div class="col-12 p-5 text-center  border blancoNegro">
-              Analizar Datos
-              <i class="bi bi-bar-chart"></i>
+            <div class="col-12 p-5 text-center">
+              <h4 class="blancoNegro">
+                Analizar Datos<i class="bi bi-bar-chart"></i>
+              </h4>
             </div>
           </div>
           <div class="row">
-            <div class="col-12 p-5 text-center border animate__animated animate__bounceInRight">
-              Importar Datos
-              <i class="bi bi-database-fill-down"></i>
+            <div class="col-12 p-5 text-center">
+              <h4 class="blancoNegro">Importar Datos<i class="bi bi-database-fill-down"></i></h4>
+            
             </div>
           </div>
           <div class="row">
-            <div class="col-12 p-5 text-center border blancoNegro">
-              Exportar Datos
-              <i class="bi bi-database-fill-up"></i>
+            <div class="col-12 p-5 text-center">
+              <h4 class="blancoNegro">
+                Exportar Datos <i class="bi bi-database-fill-up"></i>
+              </h4>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-8 mt-3">
           <div class="row row-cols-1 row-cols-md-3">
             <div class="col">
-              <div class="card h-100 shadow bg-primary p-3 text-white">
+              <div
+                class="card h-100 shadow bg-primary p-3 text-white blancoNegro"
+              >
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
                   sint. Dolor dicta veniam itaque fugiat perspiciatis ratione
@@ -56,7 +60,9 @@
               </div>
             </div>
             <div class="col">
-              <div class="card h-100 shadow bg-success p-3 text-white">
+              <div
+                class="card h-100 shadow bg-success p-3 text-white blancoNegro"
+              >
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Tempora, officia. Reiciendis natus odit asperiores ea fuga
@@ -67,7 +73,9 @@
               </div>
             </div>
             <div class="col">
-              <div class="card h-100 shadow bg-danger p-3 text-white">
+              <div
+                class="card h-100 shadow bg-danger p-3 text-white blancoNegro"
+              >
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Placeat dolore minima rerum nobis omnis asperiores natus modi
@@ -80,48 +88,55 @@
           <div class="row my-2">
             <div class="col-12">
               <table class="table">
-                <thead class="bg-success">
+                <thead>
                   <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
+                    <th scope="col" class="bg-dark text-white">#</th>
+                    <th scope="col" class="bg-dark text-white">First</th>
+                    <th scope="col" class="bg-dark text-white">Last</th>
+                    <th scope="col" class="bg-dark text-white">Handle</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
+                    <th scope="row" class="bg-primary text-white blancoNegro">
+                      1
+                    </th>
+                    <td class="bg-primary text-white blancoNegro">Mark</td>
+                    <td class="bg-primary text-white blancoNegro">Otto</td>
+                    <td class="bg-primary text-white blancoNegro">@mdo</td>
                   </tr>
                   <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
+                    <th scope="row" class="bg-success text-white blancoNegro">
+                      2
+                    </th>
+                    <td class="bg-success text-white blancoNegro">Jacob</td>
+                    <td class="bg-success text-white blancoNegro">Thornton</td>
+                    <td class="bg-success text-white blancoNegro">@fat</td>
                   </tr>
                   <tr>
-                    <th scope="row">3</th>
-                    <td colspan="2">Larry the Bird</td>
-                    <td>@twitter</td>
+                    <th scope="row" class="bg-danger text-white blancoNegro">
+                      3
+                    </th>
+                    <td colspan="2" class="bg-danger text-white blancoNegro">
+                      Larry the Bird
+                    </td>
+                    <td class="bg-danger text-white blancoNegro">@twitter</td>
                   </tr>
                 </tbody>
               </table>
               <div class="row">
                 <div class="col-12 col-md-4">
-                  <img src="./assets/img/stadistica1.png"  class="img-fluid">
+                  <img src="./assets/img/stadistica1.png" class="img-fluid animate__animated animate__fadeInDown" />
                 </div>
                 <div class="col-12 col-md-4">
-                  <img src="./assets/img/stadistica2.png"  class="img-fluid">
+                  <img src="./assets/img/stadistica2.png" class="img-fluid animate__animated animate__fadeInUp" />
                 </div>
                 <div class="col-12 col-md-4">
-                  <img src="./assets/img/stadistica1.png"  class="img-fluid">
+                  <img src="./assets/img/stadistica1.png" class="img-fluid animate__animated animate__fadeInDown" />
                 </div>
               </div>
             </div>
           </div>
-          
         </div>
       </div>
     </main>
