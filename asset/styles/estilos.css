@@ -1,48 +1,66 @@
-.banner{
-    background-image: url("../img/BANNERS.jpg");
-    padding: 25%;
-    position: relative;
-    background-attachment: fixed;
-    z-index: 1;
+.banner {
+  background-image: url("../img/BANNERS.jpg");
+  padding: 25%;
+  position: relative;
+  background-attachment: fixed;
+  z-index: 1;
 }
 
-.banner::after{
-    content: "";
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    opacity: 0.5;
-    z-index: -1;
+.banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: -1;
 }
-.menucolor{
-    background-color: #3A7D0C ;
+.menucolor {
+  background-color: #3a7d0c;
 }
-.banner2{
-    background-image: url("../img/banners2.jpg");
-    padding: 25%;
-    position: relative;
-    background-attachment: fixed;
-    z-index: 1;
-}
-
-.banner2::after{
-    content: "";
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    opacity: 0.5;
-    z-index: -1;
-}
-.columnadas{
-    height: 100vh;
+.banner2 {
+  background-image: url("../img/banners2.jpg");
+  padding: 25%;
+  position: relative;
+  background-attachment: fixed;
+  z-index: 1;
 }
 
-.columnadas:hover{
-    opacity: 1;
+.banner2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: -1;
+}
+.columnadas {
+  height: 100vh;
+}
+
+.row:hover {
+  background-color: rgb(243, 247, 247);
+  color: #01770b;
+}
+
+
+.card {
+  position: relative;
+  transition: transform 0.3s;
+  transition: transform 0.5s, box-shadow 0.5s;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+.animate__animated .animate__backInLeft{
+animation-duration: 20s;
+
 }
