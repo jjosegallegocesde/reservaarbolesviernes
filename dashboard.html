@@ -87,43 +87,27 @@
           </div>
           <div class="row my-2">
             <div class="col-12">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col" class="bg-dark text-white">#</th>
-                    <th scope="col" class="bg-dark text-white">First</th>
-                    <th scope="col" class="bg-dark text-white">Last</th>
-                    <th scope="col" class="bg-dark text-white">Handle</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row" class="bg-primary text-white blancoNegro">
-                      1
-                    </th>
-                    <td class="bg-primary text-white blancoNegro">Mark</td>
-                    <td class="bg-primary text-white blancoNegro">Otto</td>
-                    <td class="bg-primary text-white blancoNegro">@mdo</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="bg-success text-white blancoNegro">
-                      2
-                    </th>
-                    <td class="bg-success text-white blancoNegro">Jacob</td>
-                    <td class="bg-success text-white blancoNegro">Thornton</td>
-                    <td class="bg-success text-white blancoNegro">@fat</td>
-                  </tr>
-                  <tr>
-                    <th scope="row" class="bg-danger text-white blancoNegro">
-                      3
-                    </th>
-                    <td colspan="2" class="bg-danger text-white blancoNegro">
-                      Larry the Bird
-                    </td>
-                    <td class="bg-danger text-white blancoNegro">@twitter</td>
-                  </tr>
-                </tbody>
-              </table>
+              <h1>Resultados</h1>
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" disabled>Disabled</button>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">...</div>
+                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
+                <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
+                <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
+              </div>
               <div class="row">
                 <div class="col-12 col-md-4">
                   <img src="./assets/img/stadistica1.png" class="img-fluid animate__animated animate__fadeInDown" />
