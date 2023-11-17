@@ -13,3 +13,8 @@ print(dataFrameRefrigerios)
 
 # convertir el DF en Tabla html
 crearTabla(dataFrameRefrigerios,'refrigerios')
+
+
+#buscar refrigerios costo unitario > 20000
+#Buscar refrigerios costo total <1000000
+#Buscar refrigerio costo total<1000
