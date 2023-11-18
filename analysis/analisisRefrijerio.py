@@ -1,6 +1,7 @@
 from data.refrigerios import refrijerios
 from helpers.crearCSV import crearCSVRefrigerios
 from helpers.crearHTML import crearTabla
+from helpers.crearPDF import crear_pdf
 
 import pandas as pd
 
@@ -26,3 +27,7 @@ crearTabla(dataFrameRefrigerios,'refrigerios')
 crearTabla(filtroCostoUnitario,'CostoUnitarioRefrigerios')
 crearTabla(filtroCostoTotal,'CostoTotal')
 crearTabla(filtroCantidad,'CantidadRefrigerio')
+
+#convertir HTML en PDF
+crear_pdf('tables/CostoTotal.html',output_path="pdf/CostoTotalRefrigerios.pdf")
+crear_pdf('tables/refrigerios.html',output_path="pdf/Refrigerios.pdf")
