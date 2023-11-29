@@ -1,6 +1,7 @@
 from data.ListaUsuarios import usuarios
 from helpers.crearCSV import crearCSVUsuarios
 from helpers.crearHTML import crearTabla
+from helpers.crearPDF import crear_pdf
 
 import pandas as pd
 
@@ -24,3 +25,6 @@ print(filtroTres)
 crearTabla(filtroUno,'mujeresMayores')
 crearTabla(filtroDos,'sembradoresMenores')
 crearTabla(filtroTres,'sembradoresHombres')
+
+#convertir HTML en PDF
+crear_pdf('tables/usuarios.html',output_path="pdf/usuarios.pdf")
