@@ -20,5 +20,5 @@ def crearTabla(dataframe,nombre):
         
     archivoHTML=str(sopa)
     archivoHTML=archivoHTML.replace('<table border="1" class="dataframe">','<table  class="table table-striped">')
-    with open(rutaArchivo,"w")as archivo:
+    with open(rutaArchivo,"w", encoding="utf-8")as archivo:
         archivo.write(f"{encabezado}\n{archivoHTML}\n</body>\n</html")
